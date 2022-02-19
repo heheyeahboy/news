@@ -1,0 +1,204 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.main-content {
+    display: flex;
+    padding-top: 31px;
+}
+
+header {
+    background: #181818;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.head-navigation {
+    display: inherit;
+    padding: 14px 0;
+}
+
+.head-list {
+    display: inherit;
+    align-items: center;
+    margin-right: 56px;
+}
+
+.grey-news {
+    color: #888888;
+}
+
+.head-logo {
+    margin-right: 57px;
+}
+
+.head-item:not(:last-child) {
+    margin-right: 22px;
+}
+
+.head-search {
+    display: none;
+}
+
+.search {
+    margin-right: 18px;
+}
+
+.acc {
+    display: flex;
+    align-items: center;
+}
+
+.acc-logo {
+    height: 24px;
+    width: 24px;
+}
+
+.acc-add {
+    height: 14px;
+    width: 14px;
+}
+
+.acc-logo:not(:last-child) {
+    margin-right: 20px;
+}
+
+.add-inner {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.add-list {
+    border: none;
+}
+
+.add-class {
+    font-weight: 400;
+    color: #888888;
+}
+
+.add-list-inner {
+    margin-bottom: 19px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 36px;
+}
+
+.add-news {
+    display: none;
+}
+
+.add-news-img {
+    background-color: #C4C4C4;
+    background-image: url(img/main/Group\ 44.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 38vh;
+    max-width: 780px;
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+.add-news-txt {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 53px;
+}
+
+.add-publish {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pub-cancel {
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 34px;
+}
+
+.pub-button {
+    font-size: 14px;
+    padding: 14px 31px;
+    background-color: #FF1850;
+    color: white;
+    border: none;
+}

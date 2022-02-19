@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.main-content {
+    display: flex;
+    padding-top: 31px;
+}
+
+header {
+    background: #181818;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.head-navigation {
+    display: inherit;
+    padding: 14px 0;
+}
+
+.head-list {
+    display: inherit;
+    align-items: center;
+    margin-right: 57px;
+}
+
+.grey-news {
+    color: #888888;
+}
+
+.head-logo {
+    margin-right: 57px;
+}
+
+.head-item:not(:last-child) {
+    margin-right: 22px;
+}
+
+.head-search {
+    display: none;
+}
+
+.search {
+    margin-right: 18px;
+}
+
+.acc {
+    display: inherit;
+}
+
+.acc-logo:not(:last-child) {
+    margin-right: 20px;
+}

@@ -1,0 +1,441 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.main-content {
+    display: flex;
+    padding-top: 31px;
+}
+
+header {
+    background: #181818;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.head-navigation {
+    display: inherit;
+    padding: 14px 0;
+}
+
+.head-list {
+    display: inherit;
+    align-items: center;
+    margin-right: 57px;
+}
+
+.grey-news {
+    color: #888888;
+}
+
+.head-logo {
+    margin-right: 57px;
+}
+
+.head-item:not(:last-child) {
+    margin-right: 22px;
+}
+
+.head-search {
+    display: none;
+}
+
+.search {
+    margin-right: 18px;
+}
+
+.acc {
+    display: flex;
+    align-items: center;
+}
+
+.acc-logo {
+    height: 24px;
+    width: 24px;
+}
+
+.acc-add {
+    height: 14px;
+    width: 14px;
+}
+
+.acc-logo:not(:last-child) {
+    margin-right: 20px;
+}
+
+.main-inner {
+    display: flex;
+}
+
+.main-grade {
+    padding-top: 243px;
+    max-width: 180px;
+    width: 100%;
+}
+
+.main-like-line {
+    background-image: url(img/main/like.svg);
+    background-repeat: no-repeat;
+    padding: 0 40px;
+    margin-bottom: 21px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.main-comm-line {
+    background-image: url(img/main/comm.svg);
+    background-repeat: no-repeat;
+    padding: 0 40px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.grade-write {
+    background: url(img/main/write.svg);
+    background-repeat: no-repeat;
+    padding: 16px;
+    border: none;
+}
+
+.main-line {
+    max-width: 780px;
+    width: 100%;
+}
+
+.main-top-top-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.main-tag {
+    margin-right: 30px;
+}
+
+.main-top-data {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 33px;
+}
+
+.oct {
+    display: block;
+}
+
+.main-img {
+    margin-bottom: 34px;
+}
+
+.main-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main-text1 {
+    margin-bottom: 36px;
+}
+
+.main-text2,
+.main-text3 {
+    margin-bottom: 35px;
+}
+
+.main-text4 {
+    margin-bottom: 44px;
+}
+
+.main-bottom-comments {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 44px;
+}
+
+.main-top-comm {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 44px;
+}
+
+.main-comm-avatar {
+    margin-right: 21px;
+}
+
+.main-top-react-write {
+    display: block;
+    font-weight: 400;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 4px;
+    margin-bottom: 11px;
+    width: 100%;
+}
+
+.main-comm-top-react {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-comm-bottom-cont {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-comm-otmena {
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+    margin-right: 33px;
+}
+
+.main-comm-publish {
+    border: none;
+    background: #FF1850;
+    color: white;
+    padding: 14px 32px;
+    font-size: 14px;
+}
+
+.answer-bottom-comm-cont1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-user-image-logo {
+    margin-right: 21px;
+}
+
+.comm-bottom-name {
+    margin-bottom: 6px;
+}
+
+.comm-bottom-text {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.thanks {
+    display: block;
+}
+
+.self-development {
+    display: block;
+}
+
+.comm-bottom-react {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #888888;
+}
+
+.comm-bottom-hide {
+    display: flex;
+    font-weight: 500;
+    color: #FF1850;
+    margin-bottom: 17px;
+}
+
+.comm-hide-vector {
+    margin-right: 12px;
+}
+
+.answer-bottom-comm {
+    display: flex;
+    align-items: flex-start;
+}
+
+.answer-user-image-logo {
+    margin-right: 23px;
+}
+
+.answer-comm-bottom-name {
+    margin-bottom: 6px;
+}
+
+.answer-comm-bottom-text {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.answer-comm-bottom-react {
+    font-weight: 500;
+    margin-bottom: 17px;
+    color: #888888;
+}
+
+.second-answer-bottom-comm {
+    display: flex;
+    align-items: flex-start;
+}
+
+.second-answer-user-image-logo {
+    margin-right: 23px;
+}
+
+.second-answer-comm-bottom-name {
+    margin-bottom: 6px;
+}
+
+.second-answer-comm-bottom-text {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.dog {
+    color: #FF1850;
+}
+
+.second-answer-comm-bottom-react {
+    color: #888888;
+    font-weight: 500;
+}
+
+.last-bottom-comm {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 146px;
+}
+
+.last-user-image-logo {
+    margin-right: 21px;
+}
+
+.last-comm-bottom-name {
+    margin-bottom: 6px;
+}
+
+.last-comm-bottom-text {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.last-comm-bottom-react-comm {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.last-comm-bottom-react {
+    margin-right: 23px;
+    color: #888888;
+}
+
+.last-comm-bottom-hide {
+    display: flex;
+    color: #FF1850;
+    font-weight: 500;
+}
+
+.comm-hide-vector {
+    margin-right: 12px;
+}
+
+.last-news {
+    max-width: 270px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline;
+    color: black;
+}
+
+.last-inner {
+    max-width: 270px;
+    padding-left: 29px;
+}
+
+.last-main-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+.last-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.last-time {
+    color: rgb(179, 179, 179);
+    font-weight: 400;
+    font-size: 12px;
+}

@@ -1,0 +1,311 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.main-content {
+    display: flex;
+    padding-top: 31px;
+}
+
+header {
+    background: #181818;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.head-navigation {
+    display: inherit;
+    padding: 14px 0;
+}
+
+.head-list {
+    display: inherit;
+    align-items: center;
+    margin-right: 57px;
+}
+
+.grey-news {
+    color: #888888;
+}
+
+.head-logo {
+    margin-right: 57px;
+}
+
+.head-item:not(:last-child) {
+    margin-right: 22px;
+}
+
+.head-search {
+    display: none;
+}
+
+.search {
+    margin-right: 18px;
+}
+
+.acc {
+    display: flex;
+    align-items: center;
+}
+
+.acc-logo {
+    height: 24px;
+    width: 24px;
+}
+
+.acc-add {
+    width: 14px;
+    height: 14px;
+}
+
+.acc-logo:not(:last-child) {
+    margin-right: 20px;
+}
+
+.main-news {
+    max-width: 690px;
+    width: 100%;
+}
+
+.main-described-first {
+    margin-bottom: 20px;
+    background-image: url(img/main/Rectangle\ 31.png);
+    background-repeat: no-repeat;
+    max-width: 690px;
+    width: 100%;
+    height: 33vh;
+    display: block;
+}
+
+.main-described-second {
+    margin-bottom: 20px;
+    background-image: url(img/main/compucter.png);
+    background-repeat: no-repeat;
+    max-width: 690px;
+    width: 100%;
+    height: 33vh;
+    display: block;
+}
+
+.main-top-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.main-main-title {
+    margin-right: 30px;
+}
+
+.main-date {
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.main-reaction {
+    display: inherit;
+    align-items: center;
+}
+
+.main-like {
+    background-image: url(img/main/like.svg);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 21px;
+}
+
+.main-comment {
+    background-image: url(img/main/comm.svg);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.main-subtitle {
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.main-bottom-text {
+    margin-bottom: 54px;
+    font-weight: 400;
+}
+
+.single-line {
+    display: block;
+}
+
+.hot {
+    padding-left: 30px;
+    max-width: 270px;
+    width: 100%;
+}
+
+.hot-main-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+.hot-item {
+    max-width: 240px;
+    width: 100%;
+}
+
+.hot-illustration {
+    margin-bottom: 15px;
+}
+
+.hot-item-title {
+    margin-bottom: 8px;
+}
+
+.hot-news-title {
+    font-size: 14px;
+    line-height: 1.35;
+    margin-bottom: 11px;
+}
+
+.hot-reaction {
+    display: flex;
+}
+
+.hot-reaction:not(:first-child) {
+    margin-bottom: 26px;
+}
+
+.hot-like {
+    background-image: url(img/hot/like.svg);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 12px;
+    margin-right: 21px;
+}
+
+.grey-comm {
+    background-image: url(img/hot/comm.svg);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+.hot-comment {
+    background-image: url(img/hot/comm2.svg);
+    background-repeat: no-repeat;
+    padding-left: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+.last-inner {
+    max-width: 270px;
+    padding-left: 29px;
+}
+
+.last-main-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+
+.last-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.last-time {
+    color: rgb(179, 179, 179);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.last-news {
+    font-size: 12px;
+    font-weight: 400;
+    display: inline;
+    color: black;
+}
